@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 编码的人生
+title: 永立的博客
 subtitle:
 description:
 author: 永立
@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: true
   
 # Home page setting
@@ -79,4 +79,4 @@ theme: maupassant
 deploy:
   type: git
   repo: git@github.com:yongli82/yongli82.github.io.git
-  
+
