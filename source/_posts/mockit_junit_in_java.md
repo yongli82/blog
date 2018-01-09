@@ -2,7 +2,7 @@
 title: 使用Mockito进行JUnit单元测试
 tags: Java
 date: 2016/05/30
-categories: Java
+categories: 代码片段
 ---
 
 # 概述

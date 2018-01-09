@@ -2,7 +2,7 @@
 title: Hexo基础操作
 tags: Hexo
 date: 2016/06/11 09:30:00
-categories: Hexo
+categories: 代码片段
 ---
 
 本博客使用Hexo搭建。

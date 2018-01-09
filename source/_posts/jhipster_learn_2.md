@@ -1,7 +1,8 @@
 ---
 title: JHipster学习笔记2
 tags: JHipster, SpringMVC
-date: 2016/08/22 09:30:00
+date: 2016/08/22
+categories: 框架学习
 ---
 
 ## 修改默认首页welcomePage

@@ -1,8 +1,8 @@
 ---
 title: J在Ubuntu机器上安装JHipster
 tags: JHipster, SpringMVC
-date: 2016/08/21 09:30:00
-categories: Java
+date: 2016/08/20
+categories: 框架学习
 ---
 
 在Ubuntu机器上安装JHipster

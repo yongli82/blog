@@ -1,8 +1,8 @@
 ---
 title: Django 项目集成xadmin
 date: 2016-06-24 17:26:51
-tags: Django
-categories: Python
+tags: Django, Python
+categories: 框架学习
 ---
 
 django自带的admin很不错，但是界面风格当下流行的`bootstrap`风格不一致。既然前台使用了`bootstrap`风格的样式，那么后台admin也期望很有类似的风格。[`django-admin-bootstrapped`](https://github.com/django-admin-bootstrapped/django-admin-bootstrapped), [grappelli](https://github.com/sehmaschine/django-grappelli), [djangosuit](http://djangosuit.com/)都是admin的bootstrap风格封装。但`xadmin`更为激进，重新打造了一套`admin`系统，使用`xadmin.py`文件来注册需要管理的`model`。

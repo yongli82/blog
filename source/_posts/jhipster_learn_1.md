@@ -1,8 +1,8 @@
 ---
 title: JHipster学习笔记1
 tags: JHipster, SpringMVC
-date: 2016/08/21 09:30:00
-categories: Java
+date: 2016/08/21
+categories: 框架学习
 ---
 
 ### JHipster 是一个 Yeoman generator, 用于创建基于 Spring Boot + AngularJS 的项目。

@@ -2,7 +2,7 @@
 title: 创建Maven Archetype项目原型
 tags: Java
 date: 2016/05/30
-categories: Java
+categories: 代码片段
 ---
 # 创建Maven Archetype项目原型
 

@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 永立的博客
-subtitle:
+title: 技术随笔
+subtitle: 
 description:
 author: 永立
 language: zh-CN
@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yongli82.github.io
+url: http://www.codeessay.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -53,8 +53,14 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: 随笔
+default_category: 技术随笔
 category_map:
+  架构设计: architecture
+  网站应用:  web_app
+  框架学习: framework
+  代码片段: code_snippet
+  前沿技术: frontier
+  技术随笔: essay
 tag_map:
 
 # Date / Time format

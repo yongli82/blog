@@ -2,7 +2,7 @@
 title: Java Web 项目中的HttpClient
 tags: Java
 date: 2016/05/31
-categories: Java
+categories: 代码片段
 ---
 # 描述
 一个Java Web项目，要通过Http接口调用外部项目的服务。

@@ -1,8 +1,8 @@
 ---
 title: Jhipster 菜单管理
-date: 2016-08-23 00:00:00
+date: 2016-08-23
 tags: JHipster, SpringMVC
-categories: Java
+categories: 框架学习
 ---
 
 
