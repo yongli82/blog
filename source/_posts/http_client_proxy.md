@@ -1,6 +1,6 @@
 ---
 title: SpringMVC后端代理获取图片文件，解决跨域问题
-date: 2016-08-23
+date: 2018-01-19
 tags: SpringMVC
 categories: 代码片段
 ---
