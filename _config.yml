@@ -4,7 +4,7 @@
 
 # Site
 title: 技术随笔
-subtitle: 
+subtitle:
 description:
 author: 永立
 language: zh-CN
@@ -42,7 +42,7 @@ highlight:
   line_number: true
   auto_detect: true
   tab_replace: true
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,16 +51,17 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: 技术随笔
 category_map:
   架构设计: architecture
-  网站应用:  web_app
+  网站应用: web_app
   框架学习: framework
   代码片段: code_snippet
   前沿技术: frontier
   技术随笔: essay
+  基础技术: foundation
 tag_map:
 
 # Date / Time format
@@ -85,4 +86,3 @@ theme: maupassant
 deploy:
   type: git
   repo: git@github.com:yongli82/yongli82.github.io.git
-

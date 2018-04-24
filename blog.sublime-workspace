@@ -236,12 +236,12 @@
 	"buffers":
 	[
 		{
-			"contents": "3.6 预约面试\n获取用户的面试路线\n预约列表\n发起预约",
+			"file": "source/_posts/hello-world.md",
 			"settings":
 			{
-				"buffer_size": 28,
-				"line_ending": "Unix",
-				"name": "3.6 预约面试"
+				"buffer_size": 574,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -334,10 +334,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/yangyongli/Blogs/yongli82"
+		"/Users/yangyongli/Blogs/yongli82",
+		"/Users/yangyongli/Blogs/yongli82/source",
+		"/Users/yangyongli/Blogs/yongli82/source/_posts",
+		"/Users/yangyongli/Blogs/yongli82/themes"
 	],
 	"file_history":
 	[
+		"/Users/yangyongli/Blogs/yongli82/source/_posts/http_client_proxy.md",
 		"/Users/yangyongli/Blogs/yongli82/_config.yml",
 		"/Users/yangyongli/Spring/cat/pom.xml",
 		"/Users/yangyongli/Blogs/yongli82/source/_posts/jhipster_menu.md",
@@ -464,8 +468,7 @@
 		"/Users/yangyongli/Toys/mezzanine/firstproject/fabfile.py",
 		"/Users/yangyongli/.m2/repository/com/dianping/thirdparty/rsa-secure-auth/1.0.0/rsa-secure-auth-1.0.0.pom",
 		"/data/webapps/appenv.beta",
-		"/data/webapps/appenv.yyl",
-		"/data/webapps/appenv.alpha"
+		"/data/webapps/appenv.yyl"
 	],
 	"find":
 	{
@@ -505,24 +508,24 @@
 			[
 				{
 					"buffer": 0,
-					"semi_transient": false,
+					"file": "source/_posts/hello-world.md",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 28,
+						"buffer_size": 574,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28,
+								0,
 								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "3.6 预约面试",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
