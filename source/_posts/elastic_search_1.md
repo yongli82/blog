@@ -282,6 +282,126 @@ for hit in hits:
 https://www.elastic.co/guide/cn/elasticsearch/guide/current/search-in-depth.html
 
 
+#### 抽样数据
+
+使用`script`, 按对象中的Id取模进行数据抽样
+参考 [Script Query](https://www.elastic.co/guide/en/elasticsearch/reference/6.2/query-dsl-script-query.html)
+
+```
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "script": {
+            "script": {
+              "source": "doc['id'].value % 1000 == 0"
+            }
+          }
+        }
+      ],
+      "must_not": [],
+      "should": [],
+      "filter": []
+    }
+  },
+  "from": 0,
+  "size": 1000,
+  "sort": []
+}
+```
+
+#### 对嵌套对象字段进行聚合
+
+参考: https://www.elastic.co/guide/cn/elasticsearch/guide/current/nested-aggregation.html
+
+```
+{
+  "aggs": {
+    "workExpList": {
+      "nested": {
+        "path": "workExpList"
+      },
+      "aggs": {
+        "position": {
+          "terms": {
+            "field": "workExpList.position.keyword", //使用keyword原始值
+            "size":10000 //聚合结果的数量
+          }
+        }
+      }
+    }
+  },
+  "from": 0,
+  "size": 0,
+  "sort": []
+}
+```
+
+结果:
+
+```
+{
+  "took": 228,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": ****5679,
+    "max_score": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "workExpList": {
+      "doc_count": ***6109,
+      "position": {
+        "doc_count_error_upper_bound": 7416,
+        "sum_other_doc_count": ***9921,
+        "buckets": [
+          {
+            "key": "",
+            "doc_count": ***012
+          },
+          {
+            "key": "销售代表",
+            "doc_count": 110544
+          },
+          {
+            "key": "软件工程师",
+            "doc_count": 50842
+          },
+          {
+            "key": "销售经理",
+            "doc_count": 45795
+          },
+          .......
+          {
+            "key": "会计",
+            "doc_count": 23434
+          },
+          {
+            "key": "产品经理",
+            "doc_count": 22868
+          },
+          {
+            "key": "行政专员/助理",
+            "doc_count": 18841
+          },
+          {
+            "key": "项目经理",
+            "doc_count": 17664
+          }
+        ]
+      }
+    }
+  }
+}
+```
+
 ### 大数据量搜索处理
 
 ES分页查询默认限制最多查询10000条

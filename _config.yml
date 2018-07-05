@@ -81,6 +81,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: maupassant
 
+excerpt_separator: <!--more-->
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
