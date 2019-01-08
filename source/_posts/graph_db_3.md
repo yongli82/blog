@@ -1,7 +1,7 @@
 ---
 title: 3、Neo4j的Java API
 date: 2019-01-01 00:00
-tags: 基础技术, graph_db
+tags: graph_db
 categories: 基础技术
 ---
 

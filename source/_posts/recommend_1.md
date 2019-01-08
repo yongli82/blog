@@ -1,7 +1,7 @@
 ---
 title: 1、推荐系统概述：策略，架构，数据，效果评估
 date: 2019-01-01 00:00
-tags: 基础技术, recommend
+tags: recommend
 categories: 基础技术
 ---
 

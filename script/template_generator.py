@@ -35,7 +35,7 @@ template = """
 ---
 title: %(title)s
 date: 2019-01-01 00:00
-tags: 基础技术, %(category)s
+tags: %(category)s
 categories: 基础技术
 ---
 

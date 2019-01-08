@@ -1,7 +1,7 @@
 ---
 title: 2、ElasticSearch：数据模型，算法，分布式策略
 date: 2019-01-01 00:00
-tags: 基础技术, site_search
+tags: site_search
 categories: 基础技术
 ---
 

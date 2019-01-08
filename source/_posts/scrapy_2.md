@@ -1,7 +1,7 @@
 ---
 title: 2、数据提取和保存：css选择器和xpath选择器； ajax api； headless浏览器
 date: 2019-01-01 00:00
-tags: 基础技术, scrapy
+tags: scrapy
 categories: 基础技术
 ---
 

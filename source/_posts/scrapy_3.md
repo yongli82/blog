@@ -1,7 +1,7 @@
 ---
 title: 3、防反爬策略：Cookie，User-Agent,  验证码， 代理池
 date: 2019-01-01 00:00
-tags: 基础技术, scrapy
+tags: scrapy
 categories: 基础技术
 ---
 

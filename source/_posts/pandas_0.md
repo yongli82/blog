@@ -1,7 +1,7 @@
 ---
 title: Pandas数据处理 
 date: 2019-01-01 00:00
-tags: 基础技术, pandas
+tags: pandas
 categories: 基础技术
 ---
 

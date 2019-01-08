@@ -1,7 +1,7 @@
 ---
 title: 3、FastFM算法
 date: 2019-01-01 00:00
-tags: 基础技术, recommend
+tags: recommend
 categories: 基础技术
 ---
 

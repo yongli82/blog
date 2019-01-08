@@ -1,7 +1,7 @@
 ---
 title: 5、数据存储：文件，MySQL，Mongodb
 date: 2019-01-01 00:00
-tags: 基础技术, scrapy
+tags: scrapy
 categories: 基础技术
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 1、系统架构，调度机制，排重机制，Pipeline，线程，爬虫扩张和限制，数据存储
 date: 2019-01-01 00:00
-tags: 基础技术, scrapy
+tags: scrapy
 categories: 基础技术
 ---
 

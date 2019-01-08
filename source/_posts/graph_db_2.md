@@ -1,7 +1,7 @@
 ---
 title: 2、Neo4j的使用：安装， Cypher， 数据管理，导入导出， 前端Html，聚类
 date: 2019-01-01 00:00
-tags: 基础技术, graph_db
+tags: graph_db
 categories: 基础技术
 ---
 

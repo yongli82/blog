@@ -1,7 +1,7 @@
 ---
 title: 4、Pandas循环、排序、查找、过滤
 date: 2019-01-01 00:00
-tags: 基础技术, pandas
+tags: pandas
 categories: 基础技术
 ---
 

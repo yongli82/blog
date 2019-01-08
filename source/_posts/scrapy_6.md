@@ -1,7 +1,7 @@
 ---
 title: 6、分布式：Redis
 date: 2019-01-01 00:00
-tags: 基础技术, scrapy
+tags: scrapy
 categories: 基础技术
 ---
 

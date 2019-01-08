@@ -1,7 +1,7 @@
 ---
 title: 5、前端交互
 date: 2019-01-01 00:00
-tags: 基础技术, recommend
+tags: recommend
 categories: 基础技术
 ---
 

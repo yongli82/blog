@@ -1,7 +1,7 @@
 ---
 title: 8、在Java程序中使用sklearn模型
 date: 2019-01-01 00:00
-tags: 基础技术, sklearn
+tags: sklearn
 categories: 基础技术
 ---
 

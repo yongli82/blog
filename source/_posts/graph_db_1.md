@@ -1,7 +1,7 @@
 ---
 title: 1、图数据库的基本概念和主流图数据库对比， 知识图谱
 date: 2019-01-01 00:00
-tags: 基础技术, graph_db
+tags: graph_db
 categories: 基础技术
 ---
 
